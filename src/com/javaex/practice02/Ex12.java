@@ -15,7 +15,7 @@ public class Ex12 {
 		System.out.print("숫자2: ");
 		int num2 = sc.nextInt();
 		System.out.print("숫자3: ");
-		int num3 = sc.nextInt();
+		int num3 = sc.nextInt();  
 
 		
 		
