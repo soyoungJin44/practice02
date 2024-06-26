@@ -15,15 +15,18 @@ public class Ex23 {
 		int year2 = 2024;
 		
 		
-		System.out.println("올해: 2023");
+		System.out.println("올해: 2024");
 		System.out.println("태어난해: " + year1);
 		System.out.println("나이: " + (year2 - year1));
 		System.out.println("========================");
 		
+		boolean even = year2 % 2 == 0; // 올해년도 짝수값
+		boolean odd = year1 % 2 ==0; // 태어난년도 짝수값
+		
 		if(age >= 20) {
 			System.out.println("20살 이상");
 			
-			if(year2 % 2 == 0 && year1 % 2 == 0) {
+			if((even && odd) || (!even && !odd)) {
 			System.out.println("건강검진해");
 				
 			if(age >= 40) {
